@@ -1,0 +1,9 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\keil_startup_lpc15xx.o"
+".\objects\sysinit.o"
+"C:\LPCOpen\software\lpc_core\lpc_chip\chip_15xx\keil_output\chip_15xx_lib\chip_15xx_lib.lib"
+"C:\LPCOpen\software\lpc_core\lpc_board\boards_15xx\nxp_lpcxpresso_1549\keil_output\board_nxp_lpcxpresso_1549.lib"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x02000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\arm2.map" -o .\Objects\arm2.axf
